@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans:wght@100&family=Pangolin&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans:wght@100&family=Pangolin&family=Righteous&display=swap');
+
+#tbl_mascotas{
+    width: 70%;
+    margin-left: 120px;
+}
+
+#tbl_mascotas td, th{
+}
+
+h1{
+    align: center;
+    font-family: 'Pangolin', cursive;
+    font-weight: 600;
+    font-size:32px ;
+}
+
+th{
+    background-color:#3CADB6;
+    font-family: 'Pangolin', cursive;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+td{
+background-color: #ABD8DC;
+    font-family: 'Pangolin', cursive;
+    font-size: 14px;
+}
+label{
+    font-family: 'Pangolin', cursive;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 120px;
+}
+.boton{
+    background-color: #3CADB6;
+    font-size: 18px;
+    border: #3CADB6;
+    margin-left: 120px;
+}
+legend{
+    font-family: 'Pangolin', cursive;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 120px;
+}
+input{
+    font-family: 'Pangolin', cursive;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 20px;
+}
