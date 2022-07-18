@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "22315b9d-0ead-4076-828b-7ec0b586aaee",
+		"name": "CRUD_MASCOTAS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21734733"
+	},
+	"item": [
+		{
+			"name": "GET Individual",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ProyectoMascotasFBA_war/SrvlMascota?mascotaId=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ProyectoMascotasFBA_war",
+						"SrvlMascota"
+					],
+					"query": [
+						{
+							"key": "mascotaId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET General",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ProyectoMascotasFBA_war/SrvlMascota",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ProyectoMascotasFBA_war",
+						"SrvlMascota"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Paco\",\r\n    \"descripcion\":\"Lindo\",\r\n    \"raza\":\"Bulldog\",\r\n    \"vacunado\":true,\r\n    \"esterilizado\":true,\r\n    \"edad\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ProyectoMascotasFBA_war/SrvlMascota?nombre=Paco&descripcion=Lindo&raza=Bulldog&vacunado=true&esterilizado =false&edad=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ProyectoMascotasFBA_war",
+						"SrvlMascota"
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "Paco"
+						},
+						{
+							"key": "descripcion",
+							"value": "Lindo"
+						},
+						{
+							"key": "raza",
+							"value": "Bulldog"
+						},
+						{
+							"key": "vacunado",
+							"value": "true"
+						},
+						{
+							"key": "esterilizado ",
+							"value": "false"
+						},
+						{
+							"key": "edad",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Lalo\",\r\n    \"descripcion\":\"Amistoso\",\r\n    \"raza\":\"Bulldog\",\r\n    \"vacunado\":true,\r\n    \"esterilizado\":true,\r\n    \"edad\":3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ProyectoMascotasFBA_war/SrvlMascota?mascotaId=2353&nombre=Lalo&descripcion=Tierno&raza=Bulldog&vacunado=true&esterilizado =true&edad=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ProyectoMascotasFBA_war",
+						"SrvlMascota"
+					],
+					"query": [
+						{
+							"key": "mascotaId",
+							"value": "2353"
+						},
+						{
+							"key": "nombre",
+							"value": "Lalo"
+						},
+						{
+							"key": "descripcion",
+							"value": "Tierno"
+						},
+						{
+							"key": "raza",
+							"value": "Bulldog"
+						},
+						{
+							"key": "vacunado",
+							"value": "true"
+						},
+						{
+							"key": "esterilizado ",
+							"value": "true"
+						},
+						{
+							"key": "edad",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ProyectoMascotasFBA_war/SrvlMascota?mascotaId=2353",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ProyectoMascotasFBA_war",
+						"SrvlMascota"
+					],
+					"query": [
+						{
+							"key": "mascotaId",
+							"value": "2353"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
