@@ -26,14 +26,13 @@
     mascota.add(lola);
     mascota.add(new Mascota("4", "Tomy","Humilde", "Golden",false,true,2));
 %>
-<!--<p>a vale: <%= a %></p>
-<b>Nombre: </b><%= mascota.get(0).getNombre() %> -->
+
 
 <form role="form" action="SrvlMascota" method="post">
     <fieldset>
         <legend>Información de la mascota</legend>
         <label>Nombre</label>
-        <input type="text" name="name" id="name"/><br/><br/>
+        <input type="text" name="nombre" id="nombre"/><br/><br/>
         <label>Descripción</label>
         <input type="text" name="descripcion" id="descripcion"/><br/><br/>
         <label>Raza</label>
